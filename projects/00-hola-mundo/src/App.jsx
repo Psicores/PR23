@@ -1,9 +1,19 @@
 export function App() {
-    return(
+    return (
 
-        <div>
-            <h1>Twitter Card</h1>
-        </div>
+        <article>
+            <header>
+                <img alt="Avatar" src=" https://unavatar.io/telegram/drsdavidsoft" />
+                <div>
+                    <strong>Francisco Gigena</strong>
+                    <span>@fgigena</span>
+                </div>
+            </header>
+
+            <aside>
+                <button>Seguir</button>
+            </aside>
+        </article>
 
     )
 }
